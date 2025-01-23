@@ -20,7 +20,7 @@ app.use(fileUpload());
 app.use(
   cors({ 
     origin: process.env.CLIENT_URL,
-    methods:["POST","DELETE","GET","PATCH"],
+    methods:["POST","DELETE","GET","PATCH","ORIGIN"],
     credentials: true,
   })
 );
