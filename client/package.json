@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "proxcy":"https://taskboard-front-back-project.vercel.app/",
+  "proxy":"https://taskboard-front-back-project.vercel.app/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
